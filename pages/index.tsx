@@ -60,7 +60,7 @@ const IndexPage = ({
               <img
                 src="https://images.squarespace-cdn.com/content/v1/5be053b7cef372e7bbfdd9a8/1587465301353-A5VDQEDBD0AZ3YTIK4P3/BRF_Logo+%281%29.png?format=750w"
                 alt="Bedford Marathon Logo"
-                className="w-48"
+                className="w-16"
               />
             </a>
           </li>
