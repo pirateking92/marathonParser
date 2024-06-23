@@ -2,7 +2,7 @@ import { readFileSync } from "fs";
 import { NextApiRequest, NextApiResponse } from "next";
 import { RaceResults } from "../../types";
 
-export default function handler(_req: NextApiRequest, res: NextApiResponse) {
+export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const raceData: RaceResults = JSON.parse(
     readFileSync("data/MarathonResults.json", "utf-8")
   );
