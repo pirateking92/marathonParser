@@ -10,7 +10,7 @@ import Image from "next/image";
 
 export const getServerSideProps: GetServerSideProps = async () => {
   // routes are the filenames
-  const res = await fetch("https://girraphic-task-bay.vercel.app/");
+  const res = await fetch("https://marathon-parser.vercel.app/api/marathons");
   if (!res.ok) {
     // error checking
     throw new Error(`HTTP error! status: ${res.status}`);
