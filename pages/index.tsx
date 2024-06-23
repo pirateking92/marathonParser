@@ -6,7 +6,6 @@ import { useState } from "react";
 import AthleteList from "../components/AthleteList";
 import SortOptions from "../components/SortOptions";
 import ExportButton from "../components/ExportButton";
-import Image from "next/image";
 
 export const getServerSideProps: GetServerSideProps = async () => {
   // routes are the filenames
