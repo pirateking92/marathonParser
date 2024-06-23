@@ -51,12 +51,15 @@ const IndexPage = ({
       <nav className="bg-slate-400 p-4 fixed top-0 w-full z-50">
         <ul className="flex justify-between">
           <li>
-            <a href="https://girraphic.com/" className="text-white peer-hover:">
+            <a
+              href="https://portgasdfolioace.vercel.app/"
+              className="text-white peer-hover:"
+            >
               {/* nextjs wants to use 'Image' here, but research said that unless you're using many images, that its not a problem
               will be good to look into though */}
               <img
-                src="https://girraphic.com/wp-content/uploads/2020/02/Girraphic-Logo-2020.png"
-                alt="Girraphic Logo"
+                src="https://images.squarespace-cdn.com/content/v1/5be053b7cef372e7bbfdd9a8/1587465301353-A5VDQEDBD0AZ3YTIK4P3/BRF_Logo+%281%29.png?format=750w"
+                alt="Bedford Marathon Logo"
                 className="w-48"
               />
             </a>
