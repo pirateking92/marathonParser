@@ -9,7 +9,7 @@ import ExportButton from "../components/ExportButton";
 
 export const getServerSideProps: GetServerSideProps = async () => {
   // routes are the filenames
-  const res = await fetch("https://marathon-parser.vercel.app/api/marathons");
+  const res = await fetch("https://marathonparser.onrender.com/api/marathons");
   if (!res.ok) {
     // error checking
     throw new Error(`HTTP error! status: ${res.status}`);
