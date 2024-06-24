@@ -5,7 +5,7 @@ The resulting order can then be exported as a CSV file.
 
 Deployed at [(marathonparser.onrender.com) ](https://marathonparser.onrender.com/)
 
-![Screenshot](/frontend/assets/Screenshot%202024-05-31%20at%2009.01.54.png)
+![Screenshot](/assets/Screenshot 2024-06-24 at 16.47.25.png)
 
 ## Table of Contents
 
